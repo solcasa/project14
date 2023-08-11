@@ -1063,7 +1063,6 @@
     /* r */
 
     .main_banner .bg-banner-box {
-        width: 390px;
         height: 480px;
     }
 
@@ -1260,14 +1259,7 @@
     }
 
     .footer .ft_top .ft_wrap .policy li~li::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: -15px;
-        transform: translate(0, -50%);
-        width: 1px;
-        height: 12px;
-        background: #666;
+        display: none;
     }
 
     .footer .ft_top .ft_wrap .policy li strong {
