@@ -461,6 +461,8 @@
     .header .bh_wrap .sub_list {
         padding: 10px 0;
         background: #f9f9f9;
+
+        display: none;
     }
 
     .header .bh_wrap .sub_list li {
@@ -818,7 +820,6 @@
     .main_content .smtoday_con .right_side .case {
         flex-wrap: nowrap;
         gap: 20px;
-
     }
 
 
@@ -931,7 +932,7 @@
     }
 
     .main_story .smstory_con .swiper-slide {
-        margin: 0 20px 0 0;
+        margin: 0 0 0 0;
 
     }
 
@@ -976,7 +977,7 @@
 /* 메인컨텐츠 03 : sm events_res */
 @media (max-width: 768px) {
     .main_event .smevent_con .swiper-slide {
-        margin: 0 20px 0 0;
+        margin: 0 0 0 0;
         width: calc(25% - 39px);
     }
 
